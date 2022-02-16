@@ -1,28 +1,16 @@
-# pytest-rich
+# pytest-rich-reporter
 
-[![PyPI version](https://img.shields.io/pypi/v/pytest-rich.svg)](https://pypi.org/project/pytest-rich)
+[![PyPI version](https://img.shields.io/pypi/v/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
 
-[![Python versions](https://img.shields.io/pypi/pyversions/pytest-rich.svg)](https://pypi.org/project/pytest-rich)
+[![Python versions](https://img.shields.io/pypi/pyversions/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
 
 A pytest plugin using [Rich](https://github.com/Textualize/rich) for beautiful test result formatting.
 
-## Features
+## Disclaimer
 
-- TODO
+This project is a hobby project that being used as a learning opportunity to learn Rich, custom Pytest plugin creation, and modern Python package development.
 
-## Requirements
-
-- TODO
-
-## Installation
-
-You can install "pytest-rich" via `pip` from `PyPI`:
-
-    $ pip install pytest-rich
-
-## Usage
-
-- TODO
+It is currently in an ALPHA state. It is not intended for production use.
 
 ## Contributing
 
@@ -31,8 +19,8 @@ the coverage at least stays the same before you submit a pull request.
 
 ## License
 
-Distributed under the terms of the [`MIT`](LICENSE) license, "pytest-rich" is free and open source software
+Distributed under the terms of the [`MIT`](LICENSE) license, "pytest-rich-reporter" is free and open source software
 
 ## Issues
 
-If you encounter any problems, please [file an issue](https://github.com/joshuadavidthomas/pytest-rich/issues/new) along with a detailed description.
+If you encounter any problems, please [file an issue](https://github.com/joshuadavidthomas/pytest-rich-reporter/issues/new) along with a detailed description.
