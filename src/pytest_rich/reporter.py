@@ -46,3 +46,23 @@ class RichReporter(TerminalReporter):
         self.console.print(panel)
 
         super().pytest_sessionstart(session)
+
+    def summary_failures(self) -> None:
+        if self.config.option.tbstyle == "no":
+            return
+
+        reports = self.getreports("failed")
+        if not reports:
+            return
+
+        self.console.rule("FAILURES", style="white")
+
+        for rep in reports:
+            if self.config.option.tbstyle == "line":
+                line = self._getcrashline(rep)
+                self.console.print(line)
+            else:
+                msg = self._getfailureheadline(rep)
+                self.console.rule(msg, style="bold red")
+                self._outrep_summary(rep)
+                self._handle_teardown_sections(rep.nodeid)
