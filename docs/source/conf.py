@@ -20,11 +20,11 @@ sys.path.insert(0, os.path.abspath("../../src"))
 
 # -- Project information -----------------------------------------------------
 
-project = "pytest-rich"
+project = "pytest-rich-reporter"
 copyright = "2022, Josh Thomas"
 author = "Josh Thomas"
 
-from pytest_rich import __version__  # noqa: E402
+from pytest_rich_reporter import __version__  # noqa: E402
 
 version = __version__
 release = __version__

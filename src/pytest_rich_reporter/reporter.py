@@ -40,7 +40,7 @@ class RichReporter(TerminalReporter):
             ),
             style="bold green",
             padding=2,
-            title="pytest-rich",
+            title="pytest-rich-reporter",
             subtitle=f"v{package_version}",
         )
         self.console.print(panel)
