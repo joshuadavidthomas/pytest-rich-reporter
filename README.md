@@ -6,23 +6,11 @@
 
 A pytest plugin using [Rich](https://github.com/Textualize/rich) for beautiful test result formatting.
 
-## Features
+## Disclaimer
 
-- TODO
+This project is a hobby project that being used as a learning opportunity to learn Rich, custom Pytest plugin creation, and modern Python package development.
 
-## Requirements
-
-- TODO
-
-## Installation
-
-You can install "pytest-rich" via `pip` from `PyPI`:
-
-    $ pip install pytest-rich
-
-## Usage
-
-- TODO
+It is currently in an ALPHA state. It is not intended for production use.
 
 ## Contributing
 
