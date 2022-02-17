@@ -8,7 +8,7 @@ A pytest plugin using [Rich](https://github.com/Textualize/rich) for beautiful t
 
 ## Disclaimer
 
-This project is a hobby project that being used as a learning opportunity to learn Rich, custom Pytest plugin creation, and modern Python package development.
+This project is a hobby project that is being used as an opportunity to learn Rich, custom Pytest plugin creation, and modern Python package development.
 
 It is currently in an ALPHA state. It is not intended for production use.
 
