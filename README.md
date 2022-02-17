@@ -1,8 +1,8 @@
 # pytest-rich-reporter
 
 [![PyPI version](https://img.shields.io/pypi/v/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
-
 [![Python versions](https://img.shields.io/pypi/pyversions/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
+[![Documentation Status](https://readthedocs.org/projects/pytest-rich-reporter/badge/?version=latest)](https://pytest-rich-reporter.readthedocs.io/en/latest/?badge=latest)
 
 A pytest plugin using [Rich](https://github.com/Textualize/rich) for beautiful test result formatting.
 
