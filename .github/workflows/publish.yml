@@ -30,11 +30,11 @@ jobs:
             - ${{ runner.os }}-publish-pip-
       - name: Install dependencies
         run: |
-          pip install twine build
+          python -m pip install -U twine build
       - name: Publish
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
           python -m build
-          twine upload dist/*
+          python -m twine upload --repository testpypi dist/*
