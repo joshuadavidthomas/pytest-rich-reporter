@@ -1,3 +1,7 @@
+# 🚨 This project is no longer being developed. 🚨
+
+Please use [pytest-rich](https://github.com/nicoddemus/pytest-rich) instead.
+
 # pytest-rich-reporter
 
 [![PyPI version](https://img.shields.io/pypi/v/pytest-rich-reporter.svg)](https://pypi.org/project/pytest-rich-reporter)
